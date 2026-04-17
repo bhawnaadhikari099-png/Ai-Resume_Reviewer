@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE = "http://localhost:5000/api/review";
+const BASE = "https://ai-resume-reviewer-1w4d.onrender.com/";
 
 // Send PDF file to backend
 export async function reviewPDF(file, jobRole) {
